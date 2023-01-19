@@ -1,0 +1,122 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  text-align: center;
+  padding: 30px;
+  width: 70%;
+  height: 100vh;
+}
+
+.main-heading {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.image-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  margin-right: 40px;
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-timer {
+  background-color: #ffffff;
+  background-position: center;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  height: 120px;
+  width: 120px;
+  padding: 10px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.timer-running {
+  background-position: center;
+}
+
+.minus-plus-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.icons {
+  height: 28px;
+  width: 28px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.icons-btn {
+  border-width: 0px;
+  background-color: transparent;
+  margin-right: 15px;
+  font-size: 24px;
+  color: #1e293b;
+  text-align: center;
+  font-weight: 600;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.timer {
+  text-align: center;
+  background-image: linear-gradient(to right, #03fc88, #00d9f5);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+  min-width: 80px;
+  min-height: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.minus-plus-btns {
+  border-width: 0px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.name {
+  font-size: 14px;
+  color: #1e293b;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.running-time {
+  color: #00d9f5;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.ps {
+  margin-top: 0px;
+}
